@@ -1,0 +1,2 @@
+run:win_tools --host_platform=@io_bazel_rules_dotnet//dotnet/toolchain:windows_amd64_3.1.100 --platforms=@io_bazel_rules_dotnet//dotnet/toolchain:windows_amd64_3.1.100
+build:win_tools --host_platform=@io_bazel_rules_dotnet//dotnet/toolchain:windows_amd64_3.1.100 --platforms=@io_bazel_rules_dotnet//dotnet/toolchain:windows_amd64_3.1.100
