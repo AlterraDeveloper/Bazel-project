@@ -1,0 +1,15 @@
+load(
+    "@d2l_rules_csharp//csharp:defs.bzl",
+    "csharp_binary",
+    "csharp_library",
+)
+
+csharp_library(
+	name = "ClassLibrary1",
+	srcs = ["Helper.cs"],
+	target_frameworks = ["net48"],
+	visibility = ["//visibility:public"],
+	deps = [
+        "@Newtonsoft.Json.13.0.1//:Newtonsoft.Json",
+    ],
+)
